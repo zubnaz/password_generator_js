@@ -1,0 +1,136 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1 {
+    width: 500px;
+    font-size: 30px;
+    background-color: deepskyblue;
+
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 500px;
+    height: 400px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+
+}
+
+.password-input {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    column-gap: 30px;
+    box-sizing: border-box;
+}
+
+.password-input input#password {
+    width: 85%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-size: 21px;
+}
+
+.password-input input#password:disabled {
+    background-color: white;
+}
+
+#copy-button {
+    width: 15%;
+    height: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+#copy-button img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.filters {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-evenly;
+    font-size: 21px;
+}
+
+.filters input {
+    cursor: pointer;
+}
+
+.password-length {
+    width: 100%;
+    height: 50px;
+    font-size: 21px;
+    display: flex;
+    column-gap: 30px;
+    box-sizing: border-box;
+}
+
+.password-length input {
+    width: 90%;
+    cursor: pointer;
+}
+
+.password-length label {
+    width: 10%;
+    align-self: center;
+    text-align: center;
+}
+
+.buttons {
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.buttons button {
+    font-size: 21px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 124, 165);
+    flex-basis: 40%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.buttons button:hover,
+.password-input button:hover {
+    transform: scale(0.95);
+}
