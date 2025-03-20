@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    width: 500px;
+    width: 400px;
     font-size: 30px;
     background-color: deepskyblue;
 
@@ -23,7 +23,7 @@ h1 {
 }
 
 .main-container {
-    width: 500px;
+    width: 400px;
     height: 400px;
     background-color: deepskyblue;
     border-radius: 10px;
@@ -40,7 +40,7 @@ h1 {
     width: 100%;
     height: 50px;
     display: flex;
-    column-gap: 30px;
+    column-gap: 20px;
     box-sizing: border-box;
 }
 
@@ -82,7 +82,7 @@ h1 {
     display: flex;
     column-gap: 30px;
     justify-content: space-evenly;
-    font-size: 21px;
+    font-size: 17px;
 }
 
 .filters input {
